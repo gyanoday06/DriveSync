@@ -1,0 +1,30 @@
+  .genderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .option {
+    flex: 1;
+    height: 40px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .selectedOption {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 0px; 
+  }
+  

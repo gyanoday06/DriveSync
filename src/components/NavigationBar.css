@@ -1,0 +1,78 @@
+/* NavigationBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80%; /* Adjust the width as needed */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 40px; /* Adjust the height of the logo as needed */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 50%;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.navbar-item-logout {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+  background-color: #ffdada;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.navbar-item-logout:hover {
+  background-color: #ffaaaa;
+}
+.navbar-item:hover {
+  background-color: #45a049;
+}
+
+/* Style specific to Search and Publish buttons */
+.navbar-item:nth-child(1) {
+  /* Search button styling */
+  font-weight: 600;
+  background-color: #45a049;
+}
+
+.navbar-item:nth-child(2) {
+  /* Publish a Ride button styling */
+  font-weight: 600;
+  background-color: #45a049;
+}
+

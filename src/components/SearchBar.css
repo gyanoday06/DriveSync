@@ -1,0 +1,62 @@
+/* SearchBar.css */
+
+.travel-search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  margin: 0;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  width: 140px;
+  outline: none;
+  height: 3vh;
+  font-size: 14px;
+}
+.search-input input[type="number"] {
+  width: 60px; 
+}
+.search-input input[placeholder="Leaving From..."]{
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  width: 180px;
+  outline: none;
+  height: 3vh;
+  font-size: 14px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.search-input input[placeholder="Going To..."]{
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  width: 180px;
+  outline: none;
+  height: 3vh;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #757575;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #45a049;
+  color: #fff;
+  border: none;
+  width: 140px;
+  height: 5.545vh;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+button:hover {
+  background-color: #2e6b31;
+}
