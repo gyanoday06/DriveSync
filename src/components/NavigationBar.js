@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NavigationBar.css"; // Ensure you import the CSS file
-import userImage from "../assets/user.png"; // Import the user's PNG file
-import userImage2 from "../assets/drivesync-high-resolution-logo-transparent.png"; // Import the user's PNG file
+import "./NavigationBar.css"; 
+import userImage from "../assets/user.png"; 
+import userImage2 from "../assets/drivesync-high-resolution-logo-transparent.png"; 
 
 const NavigationBar = ({ isSearchPage }) => {
   const [option, setOption] = useState(false);
   const handleProfileClick = () => {
-    // Handle the press action for the "Profile" item
     setOption(!option);
-    // Add your logic here, such as opening a modal, showing a dropdown, etc.
   };
 
   return (

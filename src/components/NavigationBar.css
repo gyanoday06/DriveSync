@@ -1,5 +1,3 @@
-/* NavigationBar.css */
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -13,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 80%; /* Adjust the width as needed */
+  width: 80%; 
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -25,7 +23,7 @@
 
 .logo {
   margin-top: 10px;
-  height: 40px; /* Adjust the height of the logo as needed */
+  height: 40px;
 }
 
 .navbar-right {
@@ -63,15 +61,12 @@
   background-color: #45a049;
 }
 
-/* Style specific to Search and Publish buttons */
 .navbar-item:nth-child(1) {
-  /* Search button styling */
   font-weight: 600;
   background-color: #45a049;
 }
 
 .navbar-item:nth-child(2) {
-  /* Publish a Ride button styling */
   font-weight: 600;
   background-color: #45a049;
 }
