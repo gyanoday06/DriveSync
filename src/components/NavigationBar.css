@@ -44,6 +44,13 @@
   margin-left: 10px;
   border-radius: 4px;
 }
+.navbar-item-user{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
 .navbar-item-logout {
   text-decoration: none;
   color: red;
@@ -57,16 +64,14 @@
 .navbar-item-logout:hover {
   background-color: #ffaaaa;
 }
-.navbar-item:hover {
+.navbar-item:hover{
+  background-color: #45a049;
+}
+.navbar-item-user:hover{
   background-color: #45a049;
 }
 
-.navbar-item:nth-child(1) {
-  font-weight: 600;
-  background-color: #45a049;
-}
-
-.navbar-item:nth-child(2) {
+.navbar-item {
   font-weight: 600;
   background-color: #45a049;
 }

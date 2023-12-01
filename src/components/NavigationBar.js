@@ -27,7 +27,7 @@ const NavigationBar = ({ isSearchPage }) => {
           <Link to="/publishpage" className="navbar-item">
             Publish a Ride
           </Link>
-          <div className="navbar-item" onClick={handleProfileClick}>
+          <div className="navbar-item-user" onClick={handleProfileClick}>
             <img src={userImage} alt="User" className="user-image" />
           </div>
           {option && (

@@ -14,12 +14,18 @@
     align-items: center;
     margin: 0 5px;
     border: 0;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 800;
     cursor: pointer;
   }
   
+  .option:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+  
   .selectedOption {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
   }
 
