@@ -1,0 +1,37 @@
+/* PublishCard.css */
+.card-container {
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  height: 85%;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for each piece of information */
+.card-info {
+  margin-bottom: 12px;
+}
+
+.card-label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.card-content {
+  font-size: 16px;
+}
