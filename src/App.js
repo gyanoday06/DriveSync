@@ -5,6 +5,7 @@ import SignupPage from './pages/SignupPage';
 import HomePage from './pages/HomePage';
 import SearchPage from './pages/SearchPage'; 
 import PublishPage from './pages/PublishPage'; 
+import RidePage from './pages/RidePage'; 
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/homepage" element={<HomePage />} />
         <Route path="/searchpage" element={<SearchPage />} /> 
         <Route path="/publishpage" element={<PublishPage />} /> 
+        <Route path="/ridepage" element={<RidePage />} /> 
       </Routes>
     </Router>
   );
