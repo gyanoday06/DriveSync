@@ -1,4 +1,5 @@
 /* PublishCard.css */
+
 .card-container {
   border: 1px solid #e0e0e0;
   padding: 16px;
@@ -11,3 +12,131 @@
   flex-direction: column;
 }
 
+.pool-ride-content-outside{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 98.5%;
+  margin: 10px;
+}
+.pool-ride-content {
+  display: flex;
+  height: 90%;
+  width: 98.5%;
+  margin: 10px;
+}
+
+.pool-ride-inside-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.pool-ride-inside-content-description{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox-layout{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.pool-ride-inside-content input {
+  padding: 8px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+}
+.pool-ride-inside-content-description input {
+  padding: 8px;
+  width: 95%;
+  height: 80%;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+#time{
+  margin-top: 5px;
+  padding: 8px;
+  width:30%;
+  border-radius: 4px;
+  outline: none;
+}
+#timeAndDate{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 70px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+#datepicker{
+  margin-left: 30px;
+  width: 15%;
+}
+
+.pool-ride-inside-content input::placeholder {
+  color: #999;
+}
+
+.checkboxes {
+  display: flex;
+  align-items: center;
+}
+
+.pool-ride-inside-content input[type="checkbox"] {
+  margin-top: 0;
+  margin-right: 5px;
+  background-color: #45a049;
+}
+.pool-ride-inside-content input[type="text"] {
+  margin-top: 0;
+  margin-right: 5px;
+  width: 90%;
+}
+.pool-ride-inside-content input[type="number"] {
+  margin-top: 0;
+  margin-right: 5px;
+  width: 10%;
+}
+
+.pool-ride-inside-content-checkboxes{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.pool-ride-submit-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 10%;
+  width: 100%;
+}
+
+.pool-submit-button {
+  text-decoration: none;
+  color: white;
+  height: 85%;
+  width: 8.7%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: #45a049;
+}
