@@ -2,18 +2,142 @@
   height: 100vh;
 }
 
-.searchbar-container-ride-page{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+.searchbar-container-ride-page {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.ride-page-content{
-    margin-top: 20px;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    background-color: #f0f0f0;
+.ride-page-content-background {
+  margin-top: 20px;
+  display: flex;
+  height: 83%;
+  width: 100%;
+  justify-content: center;
+  background-color: #f0f0f0;
 }
 
+.ride-page-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 50%;
+}
+
+.filter-content {
+  width: 40%;
+  /* background-color: red; */
+}
+
+
+
+.rides-content {
+  width: 60%;
+}
+
+.ride-card {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 95%;
+  border-radius: 15px;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.ride-card:hover {
+  transform: scale(1) translateY(-3px);
+}
+
+.ride-detail {
+  display: flex;
+  height: 70%;
+  flex-direction: row;
+}
+
+.ride-detail-info {
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.ride-detail-info-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 650;
+  font-size: 20px;
+}
+
+.ride-detail-info-source-time {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+}
+
+.ride-detail-info-destination-time {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+}
+
+.ride-detail-info-travel-line {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 50%;
+  margin-left: 10px;
+  border: 1px solid #45a049;
+}
+
+.ride-detail-info-place {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 650;
+  font-size: 20px;
+}
+
+.ride-detail-info-source-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50%;
+  margin-left: 10px;
+}
+
+.ride-detail-info-destination-name {
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50%;
+}
+
+.ride-detail-price {
+  width: 20%;
+  display: flex;
+  padding-top: 15px;
+  font-weight: 780;
+  font-size: 23px;
+  color: gray;
+  justify-content: center;
+}
+
+.person-detail {
+  display: flex;
+  height: 30%;
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 23px;
+  align-items: flex-start;
+  color: #45a049;
+}
