@@ -8,6 +8,17 @@ const RidePage = () => {
   const rides = [
     { price: '20$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 520, endtime: 234, carname: 'Swift' },
     { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
   ];
   useEffect(() => {
     if (rides.length === 0) {

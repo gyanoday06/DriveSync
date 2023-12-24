@@ -195,6 +195,9 @@
 
 .rides-content {
   width: 60%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none; 
 }
 
 .ride-card {
