@@ -185,6 +185,54 @@
 .sort-section-content-checkbox input[type="checkbox"]:checked + label::before {
   background-color: #45a049;
 }
+.time-section-content-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.time-section-content-checkbox label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.time-section-content-checkbox label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #45a049;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.time-section-content-checkbox input[type="checkbox"]:checked + label::before {
+  background-color: #45a049;
+}
+.amenities-section-content-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.amenities-section-content-checkbox label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.amenities-section-content-checkbox label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #45a049;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.amenities-section-content-checkbox input[type="checkbox"]:checked + label::before {
+  background-color: #45a049;
+}
 
 .sort-section-content-footer {
   width: 100%;
