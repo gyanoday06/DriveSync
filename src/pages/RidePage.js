@@ -17,16 +17,16 @@ const RidePage = () => {
     alcoholAllowed: false,
   });
   const rides = [
-    { price: '25$', source: 'Vellore', dest: 'Chennai', name: 'John Doe', starttime: 500, endtime: 220, carname: 'Toyota Camry',smokingAllowed:false, alcoholAllowed:false },
-    { price: '40$', source: 'Vellore', dest: 'Chennai', name: 'Alice Smith', starttime: 480, endtime: 210, carname: 'Honda Accord',smokingAllowed:true, alcoholAllowed:true },
-    { price: '35$', source: 'Vellore', dest: 'Chennai', name: 'Bob Johnson', starttime: 510, endtime: 230, carname: 'Ford Mustang',smokingAllowed:false, alcoholAllowed:false },
-    { price: '50$', source: 'Vellore', dest: 'Chennai', name: 'Eva Brown', starttime: 470, endtime: 200, carname: 'Chevrolet Cruze',smokingAllowed:true, alcoholAllowed:false },
-    { price: '30$', source: 'Vellore', dest: 'Chennai', name: 'David Wilson', starttime: 490, endtime: 215, carname: 'Nissan Altima',smokingAllowed:false, alcoholAllowed:true},
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Sophia Davis', starttime: 460, endtime: 190, carname: 'Hyundai Sonata',smokingAllowed:false, alcoholAllowed:false },
-    { price: '55$', source: 'Vellore', dest: 'Chennai', name: 'Mia Martinez', starttime: 530, endtime: 240, carname: 'Volkswagen Passat',smokingAllowed:false, alcoholAllowed:true },
-    { price: '38$', source: 'Vellore', dest: 'Chennai', name: 'Oliver Taylor', starttime: 500, endtime: 220, carname: 'Kia Optima',smokingAllowed:true, alcoholAllowed:false },
-    { price: '42$', source: 'Vellore', dest: 'Chennai', name: 'Charlotte Anderson', starttime: 490, endtime: 215, carname: 'Mazda 6',smokingAllowed:false, alcoholAllowed:false },
-    { price: '48$', source: 'Vellore', dest: 'Chennai', name: 'Liam Thomas', starttime: 480, endtime: 210, carname: 'Subaru Legacy',smokingAllowed:true, alcoholAllowed:false },
+    { price: '25$', source: 'Vellore', dest: 'Chennai', name: 'John Doe', starttime: 500, endtime: 220, carname: 'Toyota Camry', smokingAllowed: false, alcoholAllowed: false },
+    { price: '40$', source: 'Vellore', dest: 'Chennai', name: 'Alice Smith', starttime: 480, endtime: 210, carname: 'Honda Accord', smokingAllowed: true, alcoholAllowed: true },
+    { price: '35$', source: 'Vellore', dest: 'Chennai', name: 'Bob Johnson', starttime: 510, endtime: 230, carname: 'Ford Mustang', smokingAllowed: false, alcoholAllowed: false },
+    { price: '50$', source: 'Vellore', dest: 'Chennai', name: 'Eva Brown', starttime: 470, endtime: 200, carname: 'Chevrolet Cruze', smokingAllowed: true, alcoholAllowed: false },
+    { price: '30$', source: 'Vellore', dest: 'Chennai', name: 'David Wilson', starttime: 490, endtime: 215, carname: 'Nissan Altima', smokingAllowed: false, alcoholAllowed: true },
+    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Sophia Davis', starttime: 460, endtime: 190, carname: 'Hyundai Sonata', smokingAllowed: false, alcoholAllowed: false },
+    { price: '55$', source: 'Vellore', dest: 'Chennai', name: 'Mia Martinez', starttime: 530, endtime: 240, carname: 'Volkswagen Passat', smokingAllowed: false, alcoholAllowed: true },
+    { price: '38$', source: 'Vellore', dest: 'Chennai', name: 'Oliver Taylor', starttime: 500, endtime: 220, carname: 'Kia Optima', smokingAllowed: true, alcoholAllowed: false },
+    { price: '42$', source: 'Vellore', dest: 'Chennai', name: 'Charlotte Anderson', starttime: 490, endtime: 215, carname: 'Mazda 6', smokingAllowed: false, alcoholAllowed: false },
+    { price: '48$', source: 'Vellore', dest: 'Chennai', name: 'Liam Thomas', starttime: 480, endtime: 210, carname: 'Subaru Legacy', smokingAllowed: true, alcoholAllowed: false },
   ];
   useEffect(() => {
     if (rides.length === 0) {

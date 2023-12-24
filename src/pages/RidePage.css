@@ -230,7 +230,9 @@
   vertical-align: middle;
 }
 
-.amenities-section-content-checkbox input[type="checkbox"]:checked + label::before {
+.amenities-section-content-checkbox
+  input[type="checkbox"]:checked
+  + label::before {
   background-color: #45a049;
 }
 
