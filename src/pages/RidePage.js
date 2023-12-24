@@ -28,7 +28,121 @@ const RidePage = () => {
       <div className='ride-page-content-background'>
         <div className='ride-page-content'>
           <div className='filter-content'>
-            Sort By
+            <div className='sort-sections'>
+              <div className='sort-section-header'>
+                <div className='sort-section-header-text'>
+                  Sort by
+                </div>
+                <div className='sort-section-header-text'>
+                  Clear all
+                </div>
+              </div>
+              <div className='sort-section-content'>
+                <div className='sort-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    Earliest Departure
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="earliestDeparture" />
+                    <label htmlFor="earliestDeparture"></label>
+                  </div>
+                </div>
+                <div className='sort-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    Lowest Price
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="lowestPrice" />
+                    <label htmlFor="lowestPrice"></label>
+                  </div>
+                </div>
+                <div className='sort-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    Shortest Ride
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="shortestRide" />
+                    <label htmlFor="shortestRide"></label>
+                  </div>
+                </div>
+                <div className='sort-section-content-footer'>
+                </div>
+              </div>
+            </div>
+            <div className='time-sections'>
+              <div className='time-section-header'>
+                <div className='time-section-header-text'>
+                  Departure Time
+                </div>
+              </div>
+              <div className='time-section-content'>
+                <div className='time-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    Before 06:00
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="beforeSix" />
+                    <label htmlFor="earliestDeparture"></label>
+                  </div>
+                </div>
+                <div className='time-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    06:00 - 12:00
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="sixToTwelve" />
+                    <label htmlFor="lowestPrice"></label>
+                  </div>
+                </div>
+                <div className='time-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    12:01 - 18:00
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="twelveToEighteen" />
+                    <label htmlFor="shortestRide"></label>
+                  </div>
+                </div>
+                <div className='time-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    After 18:00
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="afterEighteen" />
+                    <label htmlFor="shortestRide"></label>
+                  </div>
+                </div>
+                <div className='sort-section-content-footer'>
+                </div>
+              </div>
+            </div>
+            <div className='amenities-sections'>
+              <div className='amenities-section-header'>
+                <div className='time-section-header-text'>
+                  Amenities
+                </div>
+              </div>
+              <div className='amenities-section-content'>
+                <div className='amenities-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    Smoking allowed
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="smokingAllowed" />
+                    <label htmlFor="earliestDeparture"></label>
+                  </div>
+                </div>
+                <div className='amenities-section-content-card'>
+                  <div className='sort-section-content-card-text'>
+                    Alcohol allowed
+                  </div>
+                  <div className='sort-section-content-checkbox'>
+                    <input type="checkbox" id="alcoholAllowed" />
+                    <label htmlFor="lowestPrice"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className='rides-content'>
             {isRide && rides.map((ride, index) => (
@@ -37,7 +151,7 @@ const RidePage = () => {
                   <div className='ride-detail-info'>
                     <div className='ride-detail-info-time'>
                       <div className='ride-detail-info-source-time'>
-                        {ride.starttime} 
+                        {ride.starttime}
                       </div>
                       <div className='ride-detail-info-destination-time'>
                         {ride.endtime}
