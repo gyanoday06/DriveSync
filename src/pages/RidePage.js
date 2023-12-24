@@ -6,19 +6,16 @@ import './RidePage.css';
 const RidePage = () => {
   const [isRide, setIsRide] = useState(true);
   const rides = [
-    { price: '20$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 520, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
-    { price: '45$', source: 'Vellore', dest: 'Chennai', name: 'Anonymous', starttime: 420, endtime: 234, carname: 'Swift' },
+    { price: '25$', source: 'Vellore', dest: 'Chennai', name: 'John Doe', starttime: 500, endtime: 220, carname: 'Toyota Camry' },
+    { price: '40$', source: 'Chennai', dest: 'Chennai', name: 'Alice Smith', starttime: 480, endtime: 210, carname: 'Honda Accord' },
+    { price: '35$', source: 'Vellore', dest: 'Chennai', name: 'Bob Johnson', starttime: 510, endtime: 230, carname: 'Ford Mustang' },
+    { price: '50$', source: 'Chennai', dest: 'Chennai', name: 'Eva Brown', starttime: 470, endtime: 200, carname: 'Chevrolet Cruze' },
+    { price: '30$', source: 'Vellore', dest: 'Chennai', name: 'David Wilson', starttime: 490, endtime: 215, carname: 'Nissan Altima' },
+    { price: '45$', source: 'Chennai', dest: 'Chennai', name: 'Sophia Davis', starttime: 460, endtime: 190, carname: 'Hyundai Sonata' },
+    { price: '55$', source: 'Vellore', dest: 'Chennai', name: 'Mia Martinez', starttime: 530, endtime: 240, carname: 'Volkswagen Passat' },
+    { price: '38$', source: 'Chennai', dest: 'Chennai', name: 'Oliver Taylor', starttime: 500, endtime: 220, carname: 'Kia Optima' },
+    { price: '42$', source: 'Vellore', dest: 'Chennai', name: 'Charlotte Anderson', starttime: 490, endtime: 215, carname: 'Mazda 6' },
+    { price: '48$', source: 'Chennai', dest: 'Chennai', name: 'Liam Thomas', starttime: 480, endtime: 210, carname: 'Subaru Legacy' },
   ];
   useEffect(() => {
     if (rides.length === 0) {
