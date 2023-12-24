@@ -173,17 +173,17 @@
 .sort-section-content-checkbox label::before {
   content: "";
   display: inline-block;
-  width: 16px; 
-  height: 16px; 
-  background-color: #fff; 
-  border: 1px solid #45a049; 
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #45a049;
   border-radius: 3px;
   margin-right: 5px;
   vertical-align: middle;
 }
 
 .sort-section-content-checkbox input[type="checkbox"]:checked + label::before {
-  background-color: #45a049; 
+  background-color: #45a049;
 }
 
 .sort-section-content-footer {
@@ -197,7 +197,7 @@
   width: 60%;
   overflow-x: auto;
   white-space: nowrap;
-  scrollbar-width: none; 
+  scrollbar-width: none;
 }
 
 .ride-card {
@@ -304,5 +304,19 @@
   font-weight: 500;
   font-size: 23px;
   align-items: flex-start;
+  color: #45a049;
+}
+
+.no-ride {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-ride-text {
+  font-size: 35px;
+  font-weight: 700;
   color: #45a049;
 }

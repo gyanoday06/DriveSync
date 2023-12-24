@@ -185,6 +185,16 @@ const RidePage = () => {
                 </div>
               </div>
             ))}
+            {!isRide && (
+              <div className='no-ride'>
+                <div className='no-ride-text'>
+                  There are no rides yet between
+                </div>
+                <div className='no-ride-text'>
+                    these cities. Explore later
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
