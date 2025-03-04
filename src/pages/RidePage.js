@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavigationBar from '../components/NavigationBar';
 import SearchBar from '../components/SearchBar';
+import Footer from '../components/Footer';
 import './RidePage.css';
 
 const RidePage = () => {
@@ -299,6 +300,8 @@ const RidePage = () => {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 };

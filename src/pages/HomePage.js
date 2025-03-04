@@ -15,7 +15,7 @@ const HomePage = () => {
       <div className="content-container-1">
         <SearchBar />
       </div >
-      <div className="content-container-3">
+      <div className="content-container-3" style={{marginBottom: "1rem"}}>
         <div className='content'>
           <img src={userImage} alt="User" style={{ width: '50px', height: '50px' }} />
           <div className='interior'>
